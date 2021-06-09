@@ -16,6 +16,8 @@
 		A5249A1D2642E8FB0033E34A /* CandySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5249A1C2642E8FB0033E34A /* CandySearchUITests.swift */; };
 		A56B5B32266E9733001717F9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56B5B31266E9733001717F9 /* MasterViewController.swift */; };
 		A56B5B37266E9A4A001717F9 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56B5B36266E9A4A001717F9 /* Candy.swift */; };
+		A579B2AF267089420039A10E /* candies.json in Resources */ = {isa = PBXBuildFile; fileRef = A579B2AE267089420039A10E /* candies.json */; };
+		A5C418022670DD77002DEEAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C418012670DD77002DEEAE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A5249A1E2642E8FB0033E34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A56B5B31266E9733001717F9 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		A56B5B36266E9A4A001717F9 /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		A579B2AE267089420039A10E /* candies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = candies.json; sourceTree = "<group>"; };
+		A5C418012670DD77002DEEAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				A52499FA2642E8FA0033E34A /* AppDelegate.swift */,
 				A52499FC2642E8FA0033E34A /* SceneDelegate.swift */,
 				A5249A002642E8FA0033E34A /* Main.storyboard */,
+				A5C418012670DD77002DEEAE /* DetailViewController.swift */,
 				A56B5B31266E9733001717F9 /* MasterViewController.swift */,
 				A5249A032642E8FB0033E34A /* Assets.xcassets */,
 				A5249A052642E8FB0033E34A /* LaunchScreen.storyboard */,
 				A5249A082642E8FB0033E34A /* Info.plist */,
 				A56B5B36266E9A4A001717F9 /* Candy.swift */,
+				A579B2AE267089420039A10E /* candies.json */,
 			);
 			path = CandySearch;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 				A5249A072642E8FB0033E34A /* LaunchScreen.storyboard in Resources */,
 				A5249A042642E8FB0033E34A /* Assets.xcassets in Resources */,
 				A5249A022642E8FA0033E34A /* Main.storyboard in Resources */,
+				A579B2AF267089420039A10E /* candies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,7 @@
 			files = (
 				A52499FB2642E8FA0033E34A /* AppDelegate.swift in Sources */,
 				A56B5B37266E9A4A001717F9 /* Candy.swift in Sources */,
+				A5C418022670DD77002DEEAE /* DetailViewController.swift in Sources */,
 				A52499FD2642E8FA0033E34A /* SceneDelegate.swift in Sources */,
 				A56B5B32266E9733001717F9 /* MasterViewController.swift in Sources */,
 			);
