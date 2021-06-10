@@ -14,9 +14,16 @@ class DetailViewController: UIViewController {
     var detailCandy: Candy?
     
     override func viewDidLoad() {
-        
         super.viewDidLoad()
-
+        setNavigationController()
+        setDisplay()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
+    
+    private func setNavigationController() {
         navigationController?.navigationBar.backgroundColor = .candyGreen()
         
         let appearance = UINavigationBarAppearance()
@@ -26,13 +33,11 @@ class DetailViewController: UIViewController {
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.compactAppearance = appearance
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
-        
-        candyImageView.image = UIImage(named: detailCandy?.name ?? "")
-        title = detailCandy?.name
         navigationController?.navigationBar.barTintColor = .white
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        navigationController?.navigationBar.prefersLargeTitles = true
+    private func setDisplay() {
+        candyImageView.image = UIImage(named: detailCandy?.name ?? "")
+        title = detailCandy?.name
     }
 }
